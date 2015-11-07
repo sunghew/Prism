@@ -4,6 +4,7 @@
 	<li> Use: python interpreter python3 vacation.py</li>
 	<li> Python is a easy-to-use scripting language</li>
 	<li> The most important design was to be able to query common locations and get their relative distance from each other.</li>
+	<li> Used geopy from https://github.com/geopy/geopy<li>
 </ul>
 
 <h2>Deck of Cards</h2>
