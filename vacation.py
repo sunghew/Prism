@@ -14,7 +14,7 @@ def vacation():
 	while c != 'done':
 		c = input('Enter CITY, COUNTRY: ')
 		cities.append(c);
-
+	cities.pop();
 	def city_distances(cities):
 		distances = list()
 		for i in range(len(cities)-1):
@@ -29,8 +29,3 @@ def vacation():
 	print('Total distance covered in your trip: {}'.format(sum))
 
 vacation()
-
-
-
-
-
